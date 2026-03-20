@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinav Grover</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#top" class="nav-brand">Abhinav Grover</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero / About -->
+  <section id="about" class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Abhinav Grover</h1>
+        <p class="hero-role">Software Engineer &mdash; Robotics &amp; AI</p>
+        <p class="hero-affiliation">
+          <a href="https://www.appliedintuition.com/" target="_blank" rel="noopener">Applied Intuition</a>
+        </p>
+        <p class="hero-bio">
+          I build state-of-the-art simulation and 3D reconstruction tools for autonomous vehicle applications at Applied Intuition.
+          Previously, I was a Machine Learning Engineer at <a href="https://ocadointelligentautomation.com/" target="_blank" rel="noopener">Kindred AI (Ocado)</a>,
+          developing the world&rsquo;s first fully autonomous grocery fulfillment robotic system.
+        </p>
+        <p class="hero-bio">
+          I hold a MASc in Robotics and AI from the <a href="https://robotics.utoronto.ca/" target="_blank" rel="noopener">University of Toronto</a>,
+          where I was advised by <a href="https://starslab.ca/people/" target="_blank" rel="noopener">Dr. Jonathan Kelly</a>,
+          and a BASc in Mechatronics Engineering with an AI option from the
+          <a href="https://uwaterloo.ca/future-students/programs/mechatronics-engineering" target="_blank" rel="noopener">University of Waterloo</a>.
+          I am a recipient of the <a href="https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp" target="_blank" rel="noopener">NSERC Canadian Graduate Scholarship</a>
+          and the <a href="https://vectorinstitute.ai/scholarship/" target="_blank" rel="noopener">Vector Scholarship in AI</a>.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:abhinav95grover@gmail.com" class="icon-link" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/abhitoronto" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/abhinavgrovereng/" target="_blank" rel="noopener" class="icon-link" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="http://scholar.google.com/citations?user=Z7rq6coAAAAJ&hl=en" target="_blank" rel="noopener" class="icon-link" title="Google Scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+        </div>
+        <div class="hero-interests">
+          <span class="tag">Autonomous Vehicles</span>
+          <span class="tag">Robot Manipulation</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Tactile Sensing</span>
+          <span class="tag">3D Reconstruction</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/avatar.jpeg" alt="Abhinav Grover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-content">
+            <h3>MASc &mdash; Robotics and AI</h3>
+            <p class="edu-inst">University of Toronto &middot; Aerospace Department</p>
+            <p class="edu-year">2019 &ndash; 2021</p>
+            <p class="edu-detail">STARS Lab, supervised by Dr. Jonathan Kelly. NSERC CGS and Vector Scholarship recipient.</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-content">
+            <h3>BASc &mdash; Mechatronics Engineering</h3>
+            <p class="edu-inst">University of Waterloo &middot; AI Option</p>
+            <p class="edu-year">2014 &ndash; 2019</p>
+            <p class="edu-detail">Research assistant for Dr. Krzysztof Czarnecki, Dr. Mihaela Vlasea, and Dr. James Tung. 2+ years co-op experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Software Engineer &mdash; Special Projects</h3>
+                <p class="timeline-company">
+                  <a href="https://www.appliedintuition.com/" target="_blank" rel="noopener">Applied Intuition</a>
+                  &middot; Sunnyvale, CA
+                </p>
+              </div>
+              <span class="timeline-date">Jan 2025 &ndash; Present</span>
+            </div>
+            <p>Building state-of-the-art simulation and 3D reconstruction tools for autonomous vehicle applications.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Machine Learning Engineer</h3>
+                <p class="timeline-company">
+                  <a href="https://ocadointelligentautomation.com/" target="_blank" rel="noopener">Kindred AI / Ocado Engineering</a>
+                  &middot; San Francisco, CA
+                </p>
+              </div>
+              <span class="timeline-date">Sep 2021 &ndash; Jan 2025</span>
+            </div>
+            <p>Developed the world&rsquo;s first fully autonomous grocery fulfillment robotic system, combining perception, planning, and manipulation at scale.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Graduate Research Student &mdash; Robotics and AI</h3>
+                <p class="timeline-company">
+                  <a href="https://robotics.utoronto.ca/" target="_blank" rel="noopener">University of Toronto Robotics Institute &mdash; STARS Lab</a>
+                  &middot; Toronto, Canada
+                </p>
+              </div>
+              <span class="timeline-date">Sep 2019 &ndash; Aug 2021</span>
+            </div>
+            <p>Researched learning-based tactile slip detection using barometric sensors. Published at ICRA 2022. Awarded NSERC CGS and Vector Scholarship in AI.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Software Engineer &mdash; Autonomous Driving</h3>
+                <p class="timeline-company">
+                  <a href="https://developer.nvidia.com/drive" target="_blank" rel="noopener">NVIDIA Inc.</a>
+                  &middot; Holmdel, NJ
+                </p>
+              </div>
+              <span class="timeline-date">Jan 2018 &ndash; Aug 2018</span>
+            </div>
+            <ul>
+              <li>Contributed to the re-architecture of NVIDIA&rsquo;s Driving Simulation application to enable GPU cluster simulation and standardize DriveNet benchmarking.</li>
+              <li>Developed a model-predictive vehicle controller prototype in C++ for the DRIVE Xavier platform.</li>
+              <li>Contributed to NVIDIA DriveWorks SDK under MISRA compliance requirements.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Systems Engineer &mdash; DRIVE Platform</h3>
+                <p class="timeline-company">
+                  <a href="https://developer.nvidia.com/drive" target="_blank" rel="noopener">NVIDIA Inc.</a>
+                  &middot; Seattle, WA
+                </p>
+              </div>
+              <span class="timeline-date">May 2017 &ndash; Aug 2017</span>
+            </div>
+            <ul>
+              <li>Contributed to the Embedded PDK for NVIDIA DRIVE automotive hardware products used by Tesla and Audi.</li>
+              <li>Re-implemented Tegra flashing software to meet MISRA automotive standards.</li>
+              <li>Architected incremental Tegra flashing, reducing average OS flash time by 50%.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Software Engineer &mdash; Special Projects</h3>
+                <p class="timeline-company">
+                  <a href="https://www.intellijointsurgical.com/" target="_blank" rel="noopener">Intellijoint Surgical</a>
+                  &middot; Waterloo, Canada
+                </p>
+              </div>
+              <span class="timeline-date">May 2016 &ndash; Aug 2016</span>
+            </div>
+            <ul>
+              <li>Prototyped a cranial navigation macOS application using an existing optical tool tracking system.</li>
+              <li>Used OpenGL-based VTK for 3D image rendering and sphere-tracking computer vision algorithms.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <div class="pub-list">
+
+        <div class="pub-card">
+          <img src="assets/pub-tactile.png" alt="Tactile slip detection paper" class="pub-img" />
+          <div class="pub-body">
+            <h3 class="pub-title">Under Pressure: Learning to Detect Slip with Barometric Tactile Sensors</h3>
+            <p class="pub-authors"><strong>Abhinav Grover</strong>, Christopher Grebe, Philippe Nadeau, Jonathan Kelly</p>
+            <p class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA) 2022</p>
+            <p class="pub-abstract">A learning-based method to detect object slip using barometric tactile sensors, achieving >91% accuracy and demonstrating successful generalization across real-world manipulation tasks.</p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2103.13460" target="_blank" rel="noopener" class="btn-sm">ArXiv</a>
+              <a href="https://arxiv.org/pdf/2103.13460.pdf" target="_blank" rel="noopener" class="btn-sm">PDF</a>
+              <a href="https://youtu.be/BcoxUvA4AuE" target="_blank" rel="noopener" class="btn-sm">Video</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card">
+          <img src="assets/pub-certified.png" alt="Certifiably optimal hand-eye calibration paper" class="pub-img" />
+          <div class="pub-body">
+            <h3 class="pub-title">Certifiably Optimal Monocular Hand-Eye Calibration</h3>
+            <p class="pub-authors">Emmett Wise, Matthew Giamou, Soroush Khoubyarian, <strong>Abhinav Grover</strong>, Jonathan Kelly</p>
+            <p class="pub-venue">IEEE International Conference on Multisensor Fusion and Integration (MFI) 2020</p>
+            <p class="pub-abstract">A convex optimization approach for hand-eye calibration extended to the monocular (unknown-scale) case, providing certifiably globally optimal solutions with provable noise bounds.</p>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9235219" target="_blank" rel="noopener" class="btn-sm">IEEE</a>
+              <a href="https://arxiv.org/pdf/2005.08298" target="_blank" rel="noopener" class="btn-sm">PDF</a>
+              <a href="https://github.com/utiasSTARS/certifiable-calibration" target="_blank" rel="noopener" class="btn-sm">Code</a>
+              <a href="https://youtu.be/BdjGBvuaqVo" target="_blank" rel="noopener" class="btn-sm">Video</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/project-dexterous.png" alt="Dexterous hand project" />
+          </div>
+          <div class="project-body">
+            <h3>Failure-Mode Analysis of a Learned Dexterous Hand Controller</h3>
+            <p>Conducted a failure mode analysis on learned DDPG-based policies controlling a Shadow Dexterous Hand with tactile sensors, using OpenAI Gym, MuJoCo, and TensorFlow.</p>
+            <div class="project-tags">
+              <span class="tag">Reinforcement Learning</span>
+              <span class="tag">Robotics</span>
+              <span class="tag">TensorFlow</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/abhitoronto/shadow_hand_experiments_openai" target="_blank" rel="noopener" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+              <a href="https://github.com/abhitoronto/shadow_hand_experiments_openai/blob/master/AER1517__Project.pdf" target="_blank" rel="noopener" class="btn-sm">Report</a>
+              <a href="https://drive.google.com/file/d/1-ZQOO-ZD5sdUSY7FAwcoSZiz9yNeT-GS/view" target="_blank" rel="noopener" class="btn-sm">Video</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/project-road.png" alt="Road segmentation project" />
+          </div>
+          <div class="project-body">
+            <h3>Accurate Road Segmentation Using Camera and LiDAR Data</h3>
+            <p>Implemented a Fully Connected Network road segmentation pipeline on Audi&rsquo;s A2D2 dataset using late/early sensor fusion, achieving &gt;90% average precision.</p>
+            <div class="project-tags">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">LiDAR</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/abhitoronto/a2d2_road_segmentation" target="_blank" rel="noopener" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+              <a href="https://github.com/abhitoronto/a2d2_road_segmentation/blob/a2d2/Report.pdf" target="_blank" rel="noopener" class="btn-sm">Report</a>
+              <a href="https://youtu.be/daT3Ti7RnzA" target="_blank" rel="noopener" class="btn-sm">Video</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/project-ekfslam.png" alt="EKF SLAM project" />
+          </div>
+          <div class="project-body">
+            <h3>Invariant EKF SLAM</h3>
+            <p>Implemented an Invariant Extended Kalman Filter SLAM method representing robot pose as a member of the SE(3) Lie group, with NEES consistency analysis in MATLAB.</p>
+            <div class="project-tags">
+              <span class="tag">SLAM</span>
+              <span class="tag">Lie Groups</span>
+              <span class="tag">MATLAB</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/abhitoronto/Invaraint_EKF_SLAM" target="_blank" rel="noopener" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+              <a href="https://github.com/abhitoronto/Invaraint_EKF_SLAM/blob/master/AER_1513_Project_doc.pdf" target="_blank" rel="noopener" class="btn-sm">Report</a>
+              <a href="https://youtu.be/4vqj0PBAAgs" target="_blank" rel="noopener" class="btn-sm">Video</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">Feel free to reach out for research collaborations, job opportunities, or just to say hello.</p>
+      <div class="contact-links">
+        <a href="mailto:abhinav95grover@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>abhinav95grover@gmail.com</span>
+        </a>
+        <a href="https://github.com/abhitoronto" target="_blank" rel="noopener" class="contact-item">
+          <i class="fab fa-github"></i>
+          <span>github.com/abhitoronto</span>
+        </a>
+        <a href="https://www.linkedin.com/in/abhinavgrovereng/" target="_blank" rel="noopener" class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/abhinavgrovereng</span>
+        </a>
+        <a href="http://scholar.google.com/citations?user=Z7rq6coAAAAJ&hl=en" target="_blank" rel="noopener" class="contact-item">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Google Scholar</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Abhinav Grover</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
